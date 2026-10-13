@@ -14,3 +14,4 @@ jobs:
           echo "currenttime=$(curTime)" >> $GITHUB_OUTPUT
       - run: echo "The time from the early step is
           ${{ steps.get-time.outputs.currenttime }}"
+          
