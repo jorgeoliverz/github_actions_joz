@@ -1,3 +1,7 @@
+name: Output workflow (action)
+on:
+  workflows_dispatch:
+
 jobs:
   say_hello:
     name: "Let's greet the user!"
